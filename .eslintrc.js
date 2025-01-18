@@ -4,6 +4,7 @@ module.exports = {
     es2022: true,
     node: true,
   },
+  linebreak-style: ["error", "unix"],
   extends: ['eslint:recommended', 'prettier'],
   plugins: ['prettier'],
   parserOptions: {
